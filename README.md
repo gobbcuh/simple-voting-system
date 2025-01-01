@@ -2,7 +2,7 @@
 
 This is a Python project I made to simulate a simple voting system. Right now, it’s a **local application** that runs only on the device it’s installed on. I designed it to look and work like an online voting system, using **Tkinter** for the interface. I haven’t deployed it to a web server because I’m still working on the basics, but I’d love to explore making it fully online in the future.  
 
-It’s specifically set up for the **🇵🇭 2025 Philippine Senatorial Election**. It allows users to register as candidates or voters, vote securely 🔐, and even check the vote tally for transparency 📊.  
+It’s specifically set up for the **2025 Philippine Senatorial Election**. It allows users to register as candidates or voters, vote securely 🔐, and even check the vote tally for transparency 📊.  
 
 Please note: The use of the 2025 Philippine Senatorial Election is only for context in this exercise. This project is a simplified simulation and does not fully reflect how the actual senatorial election process works.
 
