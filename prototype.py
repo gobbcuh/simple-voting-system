@@ -2,10 +2,10 @@ import tkinter as tk
 from tkinter import messagebox
 
 class VotingSystemGUI:
-    def __init__(self, root):
+    def __init__(self, root): 
         self.voters = {}
         self.parties = {}
-        self.senatorial_candidates = []
+        self.senatorial_candidates = [] 
         self.votes = {}
         self.senate_votes = {}
         
@@ -13,7 +13,7 @@ class VotingSystemGUI:
         self.root.title("2025 Philippine Senate Election: Online Voting System")
         self.create_main_menu()
 
-    def create_main_menu(self):
+    def create_main_menu(self): 
         self.clear_frame()
 
         tk.Label(self.root, text="2025 Philippine Senate Election", font=('Arial', 16)).pack(pady=20)
@@ -44,7 +44,7 @@ class VotingSystemGUI:
         tk.Label(self.root, text="Add Members:").pack()
 
         member_entries = []
-        for i in range(5):  # Add 5 input boxes for 5 members
+        for i in range(5): 
             member_entry = tk.Entry(self.root)
             member_entry.pack(pady=2)
             member_entries.append(member_entry)
@@ -62,7 +62,7 @@ class VotingSystemGUI:
         tk.Button(self.root, text="Submit", command=submit_party).pack(pady=10)
         tk.Button(self.root, text="Return to Main Menu", command=self.create_main_menu).pack(pady=10)
 
-    def register_senator(self):
+    def register_senator(self): 
         self.clear_frame()
 
         tk.Label(self.root, text="Register Senatorial Candidate", font=('Arial', 16)).pack(pady=10)
@@ -83,7 +83,7 @@ class VotingSystemGUI:
         tk.Button(self.root, text="Submit", command=submit_senator).pack(pady=10)
         tk.Button(self.root, text="Return to Main Menu", command=self.create_main_menu).pack(pady=10)
 
-    def register_voter_menu(self):
+    def register_voter_menu(self): 
         self.clear_frame()
 
         tk.Label(self.root, text="Voter Registration", font=('Arial', 16)).pack(pady=20)
@@ -126,7 +126,7 @@ class VotingSystemGUI:
         tk.Button(self.root, text="Submit", command=submit_voter).pack(pady=10)
         tk.Button(self.root, text="Return to Main Menu", command=self.create_main_menu).pack(pady=10)
 
-    def voting_menu(self):
+    def voting_menu(self): 
         self.clear_frame()
 
         tk.Label(self.root, text="Voting Menu", font=('Arial', 16)).pack(pady=20)
@@ -137,7 +137,7 @@ class VotingSystemGUI:
         tk.Button(self.root, text="Show Votes", command=self.show_votes, width=25).pack(pady=10)
         tk.Button(self.root, text="Return to Main Menu", command=self.create_main_menu, width=25).pack(pady=10)
 
-    def vote_initial(self):
+    def vote_initial(self): 
         self.clear_frame()
 
         tk.Label(self.root, text="Voting", font=('Arial', 16)).pack(pady=20)
@@ -163,7 +163,7 @@ class VotingSystemGUI:
         tk.Button(self.root, text="Proceed to Vote", command=validate_voter).pack(pady=10)
         tk.Button(self.root, text="Return to Voting Menu", command=self.voting_menu).pack(pady=10)
 
-    def show_voting_options(self, voter_name):
+    def show_voting_options(self, voter_name): 
         self.clear_frame()
 
         tk.Label(self.root, text="Voting Options", font=('Arial', 16)).pack(pady=20)
@@ -191,13 +191,11 @@ class VotingSystemGUI:
                 messagebox.showerror("Error", "You must select exactly 12 senators.")
                 return
 
-            # Validate senator names against registered candidates
             for senator in selected_senators:
                 if senator not in self.senatorial_candidates:
                     messagebox.showerror("Error", f"Invalid senator name: {senator}. Please register candidates correctly.")
                     return
 
-            # Save votes
             self.votes[voter_name] = {
                 'party': chosen_party,
                 'senators': selected_senators
@@ -219,7 +217,7 @@ class VotingSystemGUI:
 
         tk.Button(self.root, text="Return to Voting Menu", command=self.voting_menu).pack(pady=10)
 
-    def show_senators(self):
+    def show_senators(self):  
         self.clear_frame()
 
         tk.Label(self.root, text="Registered Senatorial Candidates", font=('Arial', 16)).pack(pady=20)
@@ -229,7 +227,7 @@ class VotingSystemGUI:
 
         tk.Button(self.root, text="Return to Voting Menu", command=self.voting_menu).pack(pady=10)
 
-    def show_votes(self):
+    def show_votes(self): 
         self.clear_frame()
         tk.Label(self.root, text="Votes Cast", font=('Arial', 16)).pack(pady=10)
 
