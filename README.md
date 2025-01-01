@@ -76,4 +76,4 @@ I haven’t deployed it to a web server because I’m still focusing on learning
 
 ## **💡 Why I Made This**
 
-I wanted to dive into real-world programming exercises to help me improve my skills in Python. Though it’s a simple project at the moment, it’s been a great way to understand concepts like registration, input validation, and basic security. This is just the beginning, and I’m excited to keep refining it and eventually make it fully online
+I wanted to dive into real-world programming exercises to help me improve my skills in Python. Though it’s a simple project at the moment, it’s been a great way to understand concepts like registration, input validation, and basic security. This is just the beginning, and I’m excited to keep refining it and eventually make it fully online.
