@@ -7,24 +7,24 @@ Note: The use of the 2025 Philippine Senatorial Election is only for context in 
 ---
 ## **✨ Features**
 
-### **📝 1. Registration**
+### **1. Registration**
 - **Candidates** can register as either a **Party List** or a **Senatorial Candidate**.  
 - **Voters** can sign up by entering their **name, age, contact number, and address**.  
   - To ensure eligibility, only those aged 18 and above are allowed to register.  
   - There’s validation to make sure inputs are realistic.  
 
-### **🗳️ 2. Voting Process**
+### **2. Voting Process**
 - Registered voters must confirm their identity by entering their **name** and **contact number**. This step ensures that only registered individuals can vote.  
 - Voters can cast their votes for:  
   - **Up to 12 senatorial candidates**.  
   - **One party list**.  
 - The system ensures you don’t exceed the allowed number of votes.  
 
-### **🔍 3. Transparency**
+### **3. Transparency**
 - The app provides a list of all registered **Party Lists** and **Senatorial Candidates** for reference.  
 - A live **vote tally** shows how many votes each candidate and party has received, keeping the process open and easy to track.  
 
-### **🖥️ 4. Tkinter Interface**
+### **4. Tkinter Interface**
 - I used **Tkinter** to build a user-friendly interface. It’s simple but effective for this type of project, making it easy to navigate and use.
 
 ---
