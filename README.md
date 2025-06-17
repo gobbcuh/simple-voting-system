@@ -1,16 +1,11 @@
-# **🗳️ Simple Voting System 🗳️**
+# **Simple Voting System**
 
-This is a Python project I made to simulate a simple voting system. Right now, it’s a **local application** that runs only on the device it’s installed on. I designed it to look and work like an online voting system, using **Tkinter** for the interface. I haven’t deployed it to a web server because I’m still working on the basics, but I’d love to explore making it fully online in the future.  
+This is a Python project I made to simulate a simple voting system. Right now, it’s a **local application** that runs only on the device it’s installed on. I designed it to resemble and function like an online voting system, utilizing **Tkinter** for the interface. I haven’t deployed it to a web server because I’m still working on the basics, but I’d love to explore making it fully online in the future.  
 
-It’s specifically set up for the **2025 Philippine Senatorial Election**. It allows users to register as candidates or voters, vote securely 🔐, and even check the vote tally for transparency 📊.  
-
-Please note: The use of the 2025 Philippine Senatorial Election is only for context in this exercise. This project is a simplified simulation and does not fully reflect how the actual senatorial election process works.
+Note: The use of the 2025 Philippine Senatorial Election is only for context in this exercise. This project is a simplified simulation and does not accurately reflect the actual senatorial election process.
 
 ---
-
 ## **✨ Features**
-
-Here’s what the system can do:  
 
 ### **📝 1. Registration**
 - **Candidates** can register as either a **Party List** or a **Senatorial Candidate**.  
@@ -65,15 +60,5 @@ Here’s what the system can do:
 
 ## **🌐 Why It’s Local (For Now)** 
 This isn’t a fully online voting system yet. It’s more of a **local application** that mimics how an online system works. It runs directly on your computer and doesn’t require the internet or a web server to operate.  
-
-I haven’t deployed it to a web server because I’m still focusing on learning the basics, but making it truly online is one of my goals. In the future, I’d like to add features like:  
-- **🌍 Online accessibility**: Allowing users to vote remotely over the internet.  
-- **🗄️ Database integration**: Storing registrations and votes so they’re not lost when the app is closed.  
-- **🔐 Improved security**: Adding encryption to protect user data.  
-- **🎨 Polished interface**: Enhancing the design for a smoother user experience.  
-
----
-
-## **💡 Why I Made This**
 
 I wanted to dive into real-world programming exercises to help me improve my skills in Python. Though it’s a simple project at the moment, it’s been a great way to understand concepts like registration, input validation, and basic security. This is just the beginning, and I’m excited to keep refining it and eventually make it fully online.
