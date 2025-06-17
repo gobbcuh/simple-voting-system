@@ -58,7 +58,7 @@ Note: The use of the 2025 Philippine Senatorial Election is only for context in 
 
 ---
 
-## **🌐 Why It’s Local (For Now)** 
-This isn’t a fully online voting system yet. It’s more of a **local application** that mimics how an online system works. It runs directly on your computer and doesn’t require the internet or a web server to operate.  
+## **Additional Notes** 
+It’s more of a **local application** that mimics how an online system works. It runs directly on your computer and doesn’t require the internet or a web server to operate.  
 
 I wanted to dive into real-world programming exercises to help me improve my skills in Python. Though it’s a simple project at the moment, it’s been a great way to understand concepts like registration, input validation, and basic security. This is just the beginning, and I’m excited to keep refining it and eventually make it fully online.
